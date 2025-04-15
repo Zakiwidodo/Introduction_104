@@ -7,3 +7,19 @@ int nilai[] = {2,5,9,10,34};
 int skor [5] = {8,12,18,6};
 //deklarasi array dengan ukuran dan tidak ada nilai awal
 string nama[3];
+int main (){
+    cout << "skor ke 3 = " << skor [2] << endl;
+    skor[2] = 25;
+    cout << "skor ke 3 = " << skor [2] << endl;
+
+  //mengisi array dengan loop for 
+    for (size_t i = 0;  i< count; i++)
+    {
+        /* code */
+    }
+    (int i = 0; i < 3; i++) {
+        cout << "Nama Mahasiswa ke-" << i+1 << " = ";
+        cin >> nama [i] ;
+    }
+
+    cout << endl;
