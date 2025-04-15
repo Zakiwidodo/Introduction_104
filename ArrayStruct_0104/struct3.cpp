@@ -1,16 +1,5 @@
 #include <iostream>
-using namespace std;
-
-struct mahasiswa{
-    string nim;
-    string nama;
-    string alamat;
-};
-
-int main(){
-    mahasiswa mhs;
-
-#include <iostream>
+#include <string>
 using namespace std;
 
 struct detailAlamat{
@@ -24,3 +13,13 @@ struct mahasiswa{
     string nama;
     detailAlamat alamat;
 };
+
+int main(){
+    mahasiswa mhs;
+    
+    cout << "Masukan NIM = ";
+    cin >> mhs.nim;
+    cin.ignore();
+    cout << "Masukan Nama = ";
+    getline(cin, mhs.nama);
+    cout << "Masukan Alamat Desa =";
