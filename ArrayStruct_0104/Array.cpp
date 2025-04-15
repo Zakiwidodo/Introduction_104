@@ -23,3 +23,9 @@ int main (){
     }
 
     cout << endl;
+    //menampilkan array dengan loop for
+    for(int i = 0; i < 3; i++) {
+        cout << "Data Mahasiswa ke-" << i+1 << "=" << nama[i]
+        << endl;
+    }
+}
